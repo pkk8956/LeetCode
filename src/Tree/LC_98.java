@@ -1,4 +1,4 @@
-package Binary_tree;
+package Tree;
 
 public class LC_98 {
 

@@ -1,4 +1,4 @@
-package Binary_tree;
+package Tree;
 
 import java.util.Stack;
 
