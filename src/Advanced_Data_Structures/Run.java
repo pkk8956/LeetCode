@@ -1,8 +1,11 @@
 package Advanced_Data_Structures;
 
+<<<<<<< HEAD
 import java.util.Arrays;
 import java.util.List;
 
+=======
+>>>>>>> f7414f1 (Another one day going by)
 public class Run {
 
     public static void main(String[] args) {
@@ -53,6 +56,7 @@ public class Run {
         System.out.println(suffixTree.search("ana"));  
         System.out.println(suffixTree.search("nana")); 
         System.out.println(suffixTree.search("apple")); 
+<<<<<<< HEAD
 
         // Skip List Example
         SkipList skipList = new SkipList();
@@ -79,5 +83,7 @@ public class Run {
         System.out.println(isam.search(19));
 
     
+=======
+>>>>>>> f7414f1 (Another one day going by)
     }
 }
