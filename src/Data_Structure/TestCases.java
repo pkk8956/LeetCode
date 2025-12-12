@@ -10,10 +10,6 @@ public class TestCases {
         testHashMap();
         testBST();
         testMaxHeap();
-        testTrie();
-        testGraph();
-        testAVLTree();
-        
     }
 
     static void testDynamicArray() {
@@ -88,34 +84,6 @@ public class TestCases {
         heap.add(30);
         heap.add(20);
         System.out.println("MaxHeap poll: " + heap.poll() + ", peek: " + heap.peek());
-    }
-
-    static void testTrie() {
-        Trie trie = new Trie();
-        trie.insert("hello");
-        trie.insert("hi");
-        System.out.println("Trie search 'hi': " + trie.search("hi"));
-        System.out.println("Trie startsWith 'he': " + trie.startsWith("he"));
-    }
-
-    static void testGraph() {
-        Graph graph = new Graph(3);
-        graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        System.out.println("Graph adjacency:");
-        graph.printGraph();
-    }
-
-    static void testAVLTree() {
-        AVLTree<Integer> avl = new AVLTree<>();
-        avl.insert(10);
-        avl.insert(20);
-        avl.insert(30);
-        avl.insert(25);
-        avl.inorderTraversal();
-        System.out.println("AVL search 20: " + avl.search(20));
-        avl.delete(20);
-        avl.inorderTraversal();
     }
 
     static void testDeque() {

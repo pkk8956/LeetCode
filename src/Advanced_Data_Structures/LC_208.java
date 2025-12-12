@@ -1,4 +1,4 @@
-package Trie;
+package Advanced_Data_Structures;
 
 public class LC_208 {
 
