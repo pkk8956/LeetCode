@@ -76,6 +76,9 @@ public class Run {
         TreeTraversal.bfs(binaryTree.getRoot());
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5b65415 (Another one day going by)
         //Red-Black Tree
         System.out.println("\n--- Red-Black Tree ---");
         RedBlackTree redBlackTree = new RedBlackTree();
@@ -100,8 +103,11 @@ public class Run {
         for (int v : twoThreeFourValues) twoThreeFourTree.insert(v);
         twoThreeFourTree.inorder();
 
+<<<<<<< HEAD
 =======
 >>>>>>> cacfd31 (Another one day gone by)
+=======
+>>>>>>> 5b65415 (Another one day going by)
 
     
 
