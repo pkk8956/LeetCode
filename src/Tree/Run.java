@@ -75,6 +75,30 @@ public class Run {
         System.out.print("BFS (Level-order): ");
         TreeTraversal.bfs(binaryTree.getRoot());
 
+        //Red-Black Tree
+        System.out.println("\n--- Red-Black Tree ---");
+        RedBlackTree redBlackTree = new RedBlackTree();
+        int[] redBlackValues = {10, 20, 30, 15, 25, 5, 1};
+        for (int v : redBlackValues) redBlackTree.insert(v);
+        redBlackTree.inorder();
+        redBlackTree.delete(20);
+        redBlackTree.delete(5);
+        redBlackTree.inorder();
+        
+        //2-3 Tree
+        System.out.println("--- 2-3 Tree ---");
+        TwoThreeTree twoThreeTree = new TwoThreeTree();
+        int[] twoThreeValues = {10, 20, 5, 15, 25, 30, 1};
+        for (int v : twoThreeValues) twoThreeTree.insert(v);
+        twoThreeTree.inorder();
+
+        //2-3-4 Tree
+        System.out.println("--- 2-3-4 Tree ---");
+        TwoThreeFourTree twoThreeFourTree = new TwoThreeFourTree();
+        int[] twoThreeFourValues = {10, 20, 5, 15, 25, 30, 1, 8, 12};
+        for (int v : twoThreeFourValues) twoThreeFourTree.insert(v);
+        twoThreeFourTree.inorder();
+
 
     
 

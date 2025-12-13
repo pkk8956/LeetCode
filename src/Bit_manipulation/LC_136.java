@@ -1,4 +1,4 @@
-package Misc;
+package Bit_manipulation;
 
 public class LC_136 {
     //Single Number
