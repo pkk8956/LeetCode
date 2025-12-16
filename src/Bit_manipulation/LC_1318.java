@@ -1,4 +1,4 @@
-package Bit_manipulation;
+package Bit_Manipulation;
 
 public class LC_1318 {
 

@@ -1,4 +1,4 @@
-package Dynamic_programming;
+package Dynamic_Programming;
 
 public class LC_1143 {
 

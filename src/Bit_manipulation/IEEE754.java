@@ -1,4 +1,4 @@
-package Bit_manipulation;
+package Bit_Manipulation;
 
 public class IEEE754 {
 

@@ -6,6 +6,9 @@ public class HashSearch {
 
     // Hash Search Algorithm
 
+    // Time Complexity: O(1) average case for search
+    // Space Complexity: O(N) where N is number of elements in the map
+
     public static void main(String[] args) {
 
         HashMap<String, Integer> map = new HashMap<>();

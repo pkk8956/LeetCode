@@ -1,4 +1,4 @@
-package Binary_search;
+package Binary_Search;
 
 public class LC_4 {
 

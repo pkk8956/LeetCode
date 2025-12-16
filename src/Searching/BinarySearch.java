@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class BinarySearch {
 
     // Binary Search Algorithm
+
+    // Time Complexity: O(log N)
+    // Space Complexity: O(1)
     
     public static int binarySearch(int[] arr, int target) {
         int left = 0;

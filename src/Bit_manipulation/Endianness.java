@@ -1,4 +1,4 @@
-package Bit_manipulation;
+package Bit_Manipulation;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

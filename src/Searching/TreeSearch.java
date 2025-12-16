@@ -12,6 +12,11 @@ class Node {
 
 public class TreeSearch {
 
+    // Binary Search Tree Search Algorithm
+    
+    // Time Complexity: O(h) where h is the height of the tree
+    // Space Complexity: O(N) where N is number of nodes in the tree
+
     Node root;
 
     public void insert(int value) {

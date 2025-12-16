@@ -2,6 +2,10 @@ package Searching;
 
 public class FuzzySearch {
 
+    // Fuzzy Search using Levenshtein Distance
+    // Time Complexity: O(N*M) where N and M are lengths of the two strings
+    // Space Complexity: O(N*M)
+
     public static int levenshteinDistance(String a, String b) {
         int[][] dp = new int[a.length() + 1][b.length() + 1];
 
