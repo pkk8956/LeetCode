@@ -1,4 +1,4 @@
-package Hashing;
+package Hash_Map;
 
 import java.util.HashSet;
 import java.util.Set;

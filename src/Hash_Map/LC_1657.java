@@ -1,4 +1,4 @@
-package Hashing;
+package Hash_Map;
 
 public class LC_1657 {
 
