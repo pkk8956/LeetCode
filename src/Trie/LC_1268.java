@@ -1,4 +1,4 @@
-package Advanced_Data_Structures;
+package Trie;
 
 import java.util.ArrayList;
 import java.util.Arrays;

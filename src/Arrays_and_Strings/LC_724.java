@@ -1,4 +1,4 @@
-package Advanced_Data_Structures;
+package Arrays_and_Strings;
 
 public class LC_724 {
 
