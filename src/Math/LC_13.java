@@ -1,4 +1,4 @@
-package Arrays_and_Strings;
+package Math;
 
 public class LC_13 {
     // Roman to Integer

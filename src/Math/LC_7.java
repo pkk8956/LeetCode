@@ -1,4 +1,4 @@
-package Misc;
+package Math;
 
 public class LC_7 {
 
